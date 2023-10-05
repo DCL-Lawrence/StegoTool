@@ -22,9 +22,9 @@ This is a function library which implement the image, audio and network header s
 
 ### Network header steganography
 <ol>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
+  <li>Declare the object. : s = Stream(name_of_an_pcap_file)</li>
+  <li>Select the hiding sequence with scapy format. : s.select("IPv6(hlim:8, fl:15) / UDP(sport:6)")</li>
+  <li>Reselect the hiding sequence. : s.reselect("IPv6(hlim:8, fl:15) / UDP(sport:6)")</li>
+  <li>Hide the secret data with hiding sequence and generate a image which contains secret data. : s.create("132", secret_data)</li>
+  <li>Extract the secret data with hiding sequence into secret.txt. : s.get("132") </li>
 </ol>
