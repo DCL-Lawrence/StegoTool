@@ -1,6 +1,10 @@
 # StegoTool
 ## Introduction
-This is a function library which implement the image, audio and network header steganography. <br> Generally, you should add the file into the project that you want to use the functions. Each type of have their own library which are Graph, Audio, and Stream in order. All the library contain a class which the name is same as the file. You can use the follow command to write your code.
+This is a function library which implement the image, audio and network header steganography. 
+<br> Generally, you should add the file into the project that you want to use the functions. 
+<br> Each type of have their own library which are Graph, Audio, and Stream in order. 
+<br> All the library contain a class which the name is same as the file. 
+<br> You can use the follow command to write your code.
 ## Usage
 ### Iamge steganography:
 <ol>
