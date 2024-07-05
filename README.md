@@ -1,5 +1,4 @@
 # StegoTool
-======
 ## Introduction
 This is a function library which implement the image, audio and network header steganography. 
 <br> Generally, you should add the file into the project that you want to use the functions. 
