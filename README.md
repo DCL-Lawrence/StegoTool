@@ -41,7 +41,7 @@ Also, you can extract the data from the target files like following samples.
 2. Audio:
    ```
    audio.select_audio_list(["New1svega.wav", "New2svega.wav", "New3svega.wav"]) # Additional call with wave files (channels).
-	 data = audio.get("213")
+   data = audio.get("213")
    ```
 3. Network header: `data = stream.get("12")`
 
