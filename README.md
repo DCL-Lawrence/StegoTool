@@ -7,5 +7,5 @@ This is a function library which implement the image, audio and network header s
 ------
 ## Import:
 The import statement will same as following.
-- 1. Image: `main.l`
-  2. Audio: 
+1. Image: `from StegoTool import Graph`
+2. Audio: `form StegoTool import Audio`
