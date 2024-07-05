@@ -10,7 +10,9 @@ This is a function library which implement the image, audio and network header s
 The import statement will same as following.
 <ol>
   <li>Image:</li>
-  `反引號`
+  ```
+  from StegoTool import Graph
+  ```
   <li>Audio:</li>
   
   <li>Network header:</li>
