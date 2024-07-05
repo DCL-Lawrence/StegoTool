@@ -7,10 +7,5 @@ This is a function library which implement the image, audio and network header s
 ------
 ## Import:
 The import statement will same as following.
-<ol>
-  <li>Image:</li><br>`main.l`
-  
-  <li>Audio:</li>
-  
-  <li>Network header:</li>
-</ol>
+- 1. Image: `main.l`
+  2. Audio: 
