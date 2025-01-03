@@ -1,15 +1,15 @@
-import StegoTool.Graph
-import StegoTool.Audio
-import StegoTool.Stream
-import StegoTool.Analysis
+from .Graph import Graph
+from .Audio import Audio
+from .Stream import Stream
+from .Analysis import *
 
 # Class Graph for image steganography
-Graph = StegoTool.Graph.Graph
+Graph = Graph
 # Class Audio for audio steganography
-Audio = StegoTool.Audio.Audio
+Audio = Audio
 # Class Stream for network header steganography
-Stream = StegoTool.Stream.Stream
+Stream = Stream
 # Function ChiSquare for chi-square test
-ChiSquare = StegoTool.Analysis.ChiSquare
+ChiSquare = ChiSquare
 # Function RS for R/S analysis
-RS = StegoTool.Analysis.RS
+RS = RS
