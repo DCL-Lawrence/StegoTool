@@ -25,9 +25,9 @@ Secondly, you have to choose the used channels and bits for data hiding or extra
 
 ## Hide data:
 In this step, you should decide the channel hiding sequence and prepare the secret message. (Note. The labels of the channel are determinded in the select target channels and bits step.)
-1. Image: `image.create("12", "I have a pen.") # Use sequence "12" to hide data "I have a pen.".`
-2. Audio: `audio.create("213", "I have a pen.") # Use sequence "213" to hide data "I have a pen.".`
-3. Network header: `stream.create("12", "I have a pen.") # Use sequence "12" to hide data "I have a pen.".`
+1. Image: `image.create("12", b"I have a pen.") # Use sequence "12" to hide binary data "I have a pen.".`
+2. Audio: `audio.create("213", b"I have a pen.") # Use sequence "213" to hide binary data "I have a pen.".`
+3. Network header: `stream.create("12", b"I have a pen.") # Use sequence "12" to hide binary data "I have a pen.".`
 
 ## Export stego files::
 After finish the data hiding step, you can export the stego files.
